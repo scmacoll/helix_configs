@@ -1,0 +1,11 @@
+# Kanagawa
+# Author: zetashift
+
+# Adaptation of https://github.com/rebelot/kanagawa.nvim
+# Original author: rebelot
+# All credits to the original author, the palette is taken from the README
+# because of some theming differences, it's not an exact copy of the original.
+
+inherits = "rose_pine_moon"
+
+"ui.background" = {}
