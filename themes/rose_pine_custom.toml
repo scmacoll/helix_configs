@@ -4,7 +4,7 @@
 #   Please submit changes to https://github.com/rose-pine/helix.
 #   The Rosé Pine team will update Helix, including you as a co-author.
 
-"ui.background" = {}
+"ui.background" = { bg = "base" }
 "ui.background.separator" = { bg = "base" }
 
 "ui.cursor" = { fg = "text", bg = "highlight_high" }
@@ -68,11 +68,10 @@
 "type" = "foam"
 # "type.builtin" = ""
 
-# "constructor" = "pine_2"
-"constructor" = "lavender"
+"constructor" = "foam"
 
-"constant" = "rose" # maybe foam
-"constant.builtin" = "gold"
+"constant" = "foam"
+"constant.builtin" = "rose"
 # "constant.builtin.boolean" = ""
 "constant.character" = "gold"
 "constant.character.escape" = "pine"
@@ -80,7 +79,7 @@
 # "constant.numeric.integer" = ""
 # "constant.numeric.float" = ""
 
-"string" = "bronze"
+"string" = "gold"
 # "string.regexp" = ""
 # "string.special" = ""
 # "string.special.path" = ""
@@ -95,9 +94,8 @@
 "variable" = "text"
 "variable.builtin" = "love"
 "variable.parameter" = "iris"
-# "variable.other" = "lavender"
-"variable.other" = "off_white"
-# "variable.other.member" = "lavender"
+# "variable.other" = ""
+# "variable.other.member" = ""
 
 "label" = "foam"
 
@@ -111,7 +109,7 @@
 # "keyword.control.conditional" = ""
 # "keyword.control.repeat" = ""
 # "keyword.control.import" = ""
-"keyword.control.return" = "love"
+# "keyword.control.return" = ""
 # "keyword.control.exception" = ""
 "keyword.operator" = "subtle"
 # "keyword.directive" = ""
@@ -124,12 +122,11 @@
 
 "function" = "rose" # maybe pine
 "function.builtin" = "love"
-"function.method" = "rose_2"
+# "function.method" = ""
 # "function.macro" = ""
 # "function.special" = ""
 
-# "tag" = "foam"
-"tag" = "pine"
+"tag" = "foam"
 
 "namespace" = "iris"
 
@@ -170,33 +167,24 @@
 # "diff.delta.moved" = ""
 
 [palette]
-base           = "#232136" 
-surface        = "#2a273f" 
-overlay        = "#393552"
+base           = "#191724" 
+surface        = "#1f1d2e" 
+overlay        = "#26233a"
 muted          = "#6e6a86"
 subtle         = "#908caa"
-# text           = "#e0def4"
-text           = "#c9c7db"
+text           = "#e0def4"
 love           = "#eb6f92"
-love_10        = "#3a2841"
+love_10        = "#311f30"
 gold           = "#f6c177"
-gold_10        = "#39313e"
-bronze         = "#ddad6b"
-rose           = "#ea9a97"
-rose_2         = "#ebbcba"
-rose_10        = "#392d41"
-pine           = "#3e8fb0"
-pine_2         = "#31748f"
-pine_10        = "#252c44"
+gold_10        = "#30282c"
+rose           = "#ebbcba"
+rose_10        = "#2f2834"
+pine           = "#31748f"
+pine_10        = "#1a2030"
 foam           = "#9ccfd8"
-foam_10        = "#2e3248"
+foam_10        = "#252937"
 iris           = "#c4a7e7"
-iris_10        = "#342e4a"
-highlight_low  = "#2a283e"
-highlight_med  = "#44415a"
-highlight_high = "#56526e"
-lilac          = "#dbbfef"
-lavender       = "#a4a0e8"
-# off_white      = "#d1c8b7"
-off_white      = "#d5cdbe"
-# off_white      = "#bcb4a4"
+iris_10        = "#2b2539"
+highlight_low  = "#21202e"
+highlight_med  = "#403d52"
+highlight_high = "#524f67"
