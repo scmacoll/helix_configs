@@ -18,20 +18,20 @@
 "ui.linenr" = { fg = "muted" }
 "ui.linenr.selected" = { fg = "text" }
 
-"ui.statusline" = { fg = "subtle", bg = "surface" }
-"ui.statusline.inactive" = { fg = "muted", bg = "surface" }
+"ui.statusline" = { fg = "subtle", bg = "term_bg" }
+"ui.statusline.inactive" = { fg = "muted", bg = "everforest_bg0" }
 "ui.statusline.normal" = { fg = "rose", bg = "rose_10" }
 "ui.statusline.insert" = { fg = "foam", bg = "foam_10" }
 "ui.statusline.select" = { fg = "iris", bg = "iris_10" }
 # "ui.statusline.separator" = {}
 
-"ui.popup" = { bg = "surface" }
-"ui.popup.info" = { bg = "surface" }
+"ui.popup" = { bg = "term_bg" }
+"ui.popup.info" = { bg = "term_bg" }
 
-"ui.window" = { fg = "overlay", bg = "base" }
-"ui.help" = { fg = "subtle", bg = "overlay" }
+"ui.window" = { fg = "subtle", bg = "everforest_bg0" }
+"ui.help" = { fg = "subtle", bg = "term_bg" }
 
-"ui.text" = { fg = "text" }
+"ui.text" = { fg = "everforest_gy0" }
 "ui.text.focus" = { bg = "overlay" }
 "ui.text.info" = { fg = "subtle" }
 
@@ -40,8 +40,8 @@
 "ui.virtual.indent-guide" = { fg = "muted" }
 "ui.virtual.inlay-hint" = { fg = "subtle" }
 
-"ui.menu" = { fg = "subtle", bg = "surface" }
-"ui.menu.selected" = { fg = "text" }
+"ui.menu" = { fg = "term_bold", bg = "term_bg" }
+"ui.menu.selected" = { fg = "text", bg = "everforest_bg3" }
 "ui.menu.scroll" = { fg = "muted", bg = "highlight_med" }
 
 "ui.selection" = { bg = "overlay" }
@@ -92,11 +92,11 @@
 # "comment.block" = ""
 # "comment.block.documentation" = ""
 
-"variable" = "text"
+"variable" = "off_white"
 "variable.builtin" = "love"
 "variable.parameter" = "iris"
 # "variable.other" = "lavender"
-"variable.other" = "off_white"
+"variable.other" = "text"
 # "variable.other.member" = "lavender"
 
 "label" = "foam"
@@ -172,6 +172,7 @@
 [palette]
 base           = "#232136" 
 surface        = "#2a273f" 
+# surface        = "#2a343b" 
 overlay        = "#393552"
 muted          = "#6e6a86"
 subtle         = "#908caa"
@@ -198,5 +199,17 @@ highlight_high = "#56526e"
 lilac          = "#dbbfef"
 lavender       = "#a4a0e8"
 # off_white      = "#d1c8b7"
-off_white      = "#d5cdbe"
+# off_white      = "#d5cdbe"
+# off_white      = "#bfb8ab"
+off_white      = "#cac3b5"
 # off_white      = "#bcb4a4"
+term_sel       = "#073642"
+term_bold      = "#93a1a1"
+ansi_br_black  = "#002b36"
+ansi_green     = "#859900"
+ansi_cyan      = "#2aa198"
+everforest_bg0 = "#2d353b"
+everforest_bg1 = "#343f44"
+everforest_bg2 = "#3d484d"
+everforest_bg3 = "#475258"
+everforest_gy0 = "#9da9a0"

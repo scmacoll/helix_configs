@@ -1,0 +1,21 @@
+[[language]]
+name = "typescript"
+scope = "source.ts"
+file-types = ["ts"]
+comment-token = "//"
+indent = { tab-width = 2, unit = "  " }
+language-server = { command = "typescript-language-server", args = ["--stdio"] }
+[[language]]
+name = "tsx"
+scope = "source.tsx"
+file-types = ["tsx"]
+comment-token = "//"
+indent = { tab-width = 2, unit = "  " }
+language-server = { command = "typescript-language-server", args = ["--stdio"] }
+[[language]]
+name = "rust"
+scope = "source.rust"
+file-types = ["rs"]
+comment-token = "//"
+indent = { tab-width = 4, unit = "    " }
+language-server = { command = "rust-analyzer", args = [] }

@@ -10,6 +10,7 @@ completion-trigger-len = 2
 auto-info = true
 shell = ["sh", "-c"]
 bufferline = "multiple"
+color-modes = true
 gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
 true-color = true
 [editor.indent-guides]
