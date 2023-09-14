@@ -1,0 +1,113 @@
+# Author : Jakub Bartodziej <kubabartodziej@gmail.com>
+# The theme uses the gruvbox dark palette with standard contrast: github.com/morhetz/gruvbox
+
+"attribute" = "aqua1"
+"keyword" = { fg = "red1" }
+"keyword.directive" = "red0"
+"namespace" = "aqua1"
+"punctuation" = "orange1"
+"punctuation.delimiter" = "gray0"
+"operator" = "purple0"
+"special" = "purple0"
+"variable.other.member" = "blue1"
+"variable" = "fg1"
+"variable.builtin" = "orange1"
+"variable.parameter" = "fg2"
+"type" = "yellow1"
+"type.builtin" = "yellow1"
+"constructor" = { fg = "purple1" }
+"function" = { fg = "green1" }
+"function.macro" = "aqua1"
+"function.builtin" = "yellow1"
+"function.method" = { fg = "aqua0" }
+"tag" = "aqua1"
+"comment" = { fg = "gray1", modifiers = ["italic"]  }
+"constant" = { fg = "purple1" }
+"constant.builtin" = { fg = "purple1" }
+"string" = "green0"
+"constant.numeric" = "purple1"
+"constant.character.escape" = { fg = "fg2" }
+"label" = "aqua1"
+"module" = "aqua1"
+
+"diff.plus" = "green1"
+"diff.delta" = "orang0e1"
+"diff.minus" = "red1"
+
+"warning" = "orange1"
+"error" = "red1"
+"info" = "aqua1"
+"hint" = "blue1"
+
+"ui.background" = { bg = "transparent" }
+"ui.linenr" = { fg = "muted" }
+"ui.linenr.selected" = { fg = "yellow1" }
+"ui.cursorline" = { bg = "bg1" }
+"ui.statusline" = { fg = "fg1", bg = "" }
+"ui.statusline.normal" = { fg = "fg1", bg = "muted" }
+"ui.statusline.insert" = { fg = "fg1", bg = "blue0" }
+"ui.statusline.select" = { fg = "fg1", bg = "orange0" }
+"ui.statusline.inactive" = { fg = "fg4", bg = "bg1" }
+"ui.popup" = { bg = "" }
+"ui.popup.info" = { bg = "" }
+"ui.window" = { bg = "bg1" }
+"ui.help" = { bg = "", fg = "" }
+"ui.text" = { fg = "fg1" }
+"ui.text.focus" = { fg = "fg1" }
+"ui.selection" = { bg = "bg2" }
+"ui.selection.primary" = { bg = "bg3" }
+"ui.cursor" = { fg = "fg1", bg = "muted"}
+"ui.cursor.normal" = { fg = "fg1", bg = "muted" }
+"ui.cursor.primary" = { fg = "fg1", bg = "muted" }
+"ui.cursor.match" = { bg = "bg2" }
+"ui.menu" = { fg = "fg1", bg = "" }
+"ui.menu.selected" = { fg = "bg2", bg = "blue1", modifiers = ["bold"] }
+"ui.virtual.whitespace" = "bg2"
+"ui.virtual.ruler" = { bg = "bg1" }
+"ui.virtual.inlay-hint" = { fg = "gray1" }
+"ui.virtual.wrap" = { fg = "bg2" }
+
+"diagnostic.warning" = { underline = { color = "orange1", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red0", style = "curl"} }
+"diagnostic.info" = { underline = { color = "aqua1", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "blue1", style = "curl" } }
+
+"markup.heading" = "aqua1"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "green1", modifiers = ["underlined"] }
+"markup.link.text" = "red1"
+"markup.raw" = "red1"
+
+[palette]
+bg0 = "#1d2021" # main background
+bg1 = "#3c3836"
+bg2 = "#504945"
+bg3 = "#665c54"
+bg4 = "#7c6f64"
+
+fg0 = "#fbf1c7"
+fg1 = "#ebdbb2" # main foreground
+fg2 = "#d5c4a1"
+fg3 = "#bdae93"
+fg4 = "#a89984" # gray0
+
+gray0 = "#a89984"
+gray1 = "#928374"
+
+red0 = "#cc241d" # neutral
+red1 = "#fb4934" # bright
+green0 = "#98971a"
+green1 = "#b8bb26"
+yellow0 = "#d79921"
+yellow1 = "#fabd2f"
+blue0 = "#458588"
+blue1 = "#83a598"
+purple0 = "#b16286"
+purple1 = "#d3869b"
+aqua0 = "#689d6a"
+aqua1 = "#8ec07c"
+orange0 = "#d65d0e"
+orange1 = "#fe8019"
+muted   = "#6e6a86"
