@@ -19,12 +19,12 @@
 "function" = { fg = "green1" }
 "function.macro" = "aqua1"
 "function.builtin" = "yellow1"
-"function.method" = { fg = "aqua0" }
+"function.method" = { fg = "green0" }
 "tag" = "aqua1"
-"comment" = { fg = "gray1", modifiers = ["italic"]  }
+"comment" = { fg = "fg4", modifiers = ["italic"]  }
 "constant" = { fg = "purple1" }
 "constant.builtin" = { fg = "purple1" }
-"string" = "green0"
+"string" = "aqua0"
 "constant.numeric" = "purple1"
 "constant.character.escape" = { fg = "fg2" }
 "label" = "aqua1"
@@ -42,7 +42,7 @@
 "ui.background" = { bg = "transparent" }
 "ui.linenr" = { fg = "muted" }
 "ui.linenr.selected" = { fg = "yellow1" }
-"ui.cursorline" = { bg = "bg1" }
+"ui.cursorline" = { fg = "fg1", bg = "bg1" }
 "ui.statusline" = { fg = "fg1", bg = "" }
 "ui.statusline.normal" = { fg = "fg1", bg = "muted" }
 "ui.statusline.insert" = { fg = "fg1", bg = "blue0" }
@@ -54,12 +54,17 @@
 "ui.help" = { bg = "", fg = "" }
 "ui.text" = { fg = "fg1" }
 "ui.text.focus" = { fg = "fg1" }
-"ui.selection" = { bg = "bg2" }
-"ui.selection.primary" = { bg = "bg3" }
+"ui.selection" = { fg = "fg1", bg = "overlay" }
+"ui.selection.primary" = { bg = "overlay" }
 "ui.cursor" = { fg = "fg1", bg = "muted"}
+"ui.cursor.insert" = { fg = "fg1", bg = "muted"}
+"ui.cursor.select" = { fg = "fg1", bg = "muted"}
 "ui.cursor.normal" = { fg = "fg1", bg = "muted" }
 "ui.cursor.primary" = { fg = "fg1", bg = "muted" }
-"ui.cursor.match" = { bg = "bg2" }
+"ui.cursor.secondary" = { fg = "fg1", bg = "muted" }
+"ui.cursor.primary.insert" = { fg = "fg1", bg = "muted" }
+"ui.cursor.primary.select" = { fg = "fg1", bg = "muted" }
+"ui.cursor.match" = { fg = "fg1", bg = "highlight_med" }
 "ui.menu" = { fg = "fg1", bg = "" }
 "ui.menu.selected" = { fg = "bg2", bg = "blue1", modifiers = ["bold"] }
 "ui.virtual.whitespace" = "bg2"
@@ -91,7 +96,7 @@ fg0 = "#fbf1c7"
 fg1 = "#ebdbb2" # main foreground
 fg2 = "#d5c4a1"
 fg3 = "#bdae93"
-fg4 = "#a89984" # gray0
+fg4 = "#867a69" # gray0
 
 gray0 = "#a89984"
 gray1 = "#928374"
@@ -111,3 +116,5 @@ aqua1 = "#8ec07c"
 orange0 = "#d65d0e"
 orange1 = "#fe8019"
 muted   = "#6e6a86"
+overlay = "#393552"
+highlight_med = "#44415a"

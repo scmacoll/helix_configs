@@ -1,6 +1,7 @@
-theme = "custom_pine_moon"
+theme = "custom_gruvbox"
 
 [editor]
+line-number = "relative"
 mouse = false
 auto-completion = true
 auto-format = true
@@ -19,6 +20,10 @@ true-color = true
 skip-levels = 1
 [keys.normal]
 esc = ["collapse_selection", "keep_primary_selection"]
+C-k = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
+C-j = [ "extend_to_line_bounds", "delete_selection", "move_line_down", "paste_before" ]
+C-d = ["half_page_down", "align_view_center"]
+C-u = ["half_page_up", "align_view_center"]
 [editor.auto-pairs]
 '(' = ')'
 '{' = '}'
